@@ -1,0 +1,17 @@
+[project]
+name = "langchain-v1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "httpx-sse>=0.4.3",
+    "langchain>=1.2.7",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-groq>=1.1.1",
+    "langchain-openai>=1.1.7",
+    "load-dotenv>=0.1.0",
+    "pyjwt>=2.10.1",
+]
