@@ -14,7 +14,7 @@ prompt_template = ChatPromptTemplate(
 )
 prompt = prompt_template.invoke({"input": "What is the capital of Italy?"})
 llm = ChatOpenAI(
-    model="glm-4.7-flash",
+    model="GLM-5-Turbo",
     openai_api_key=os.getenv("ZHIPUAI_API_KEY"),
     openai_api_base=os.getenv("OPENAI_API_URL")
 )

@@ -52,3 +52,6 @@ local_settings.py
 .mypy_cache/
 .ruff_cache/
 .env
+*.cursor*
+*.venv/*
+uv.lock
